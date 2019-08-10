@@ -3,25 +3,43 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		2F10D47A22FB253300E274C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F10D47922FB253300E274C0 /* AppDelegate.swift */; };
-		2F10D47C22FB253300E274C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F10D47B22FB253300E274C0 /* ViewController.swift */; };
+		2F10D47C22FB253300E274C0 /* AtristTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F10D47B22FB253300E274C0 /* AtristTableViewController.swift */; };
 		2F10D47F22FB253300E274C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F10D47D22FB253300E274C0 /* Main.storyboard */; };
 		2F10D48122FB253500E274C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F10D48022FB253500E274C0 /* Assets.xcassets */; };
 		2F10D48422FB253500E274C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F10D48222FB253500E274C0 /* LaunchScreen.storyboard */; };
+		2F1ABE2C22FDC7E5003A0677 /* ArtistPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1ABE2B22FDC7E5003A0677 /* ArtistPresenter.swift */; };
+		2F1ABE2E22FDC81D003A0677 /* ArtistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1ABE2D22FDC81D003A0677 /* ArtistTableViewCell.swift */; };
+		2F1ABE3022FDCB87003A0677 /* artists.json in Resources */ = {isa = PBXBuildFile; fileRef = 2F1ABE2F22FDCB87003A0677 /* artists.json */; };
+		2F1ABE3222FDD3A2003A0677 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1ABE3122FDD3A2003A0677 /* Map.swift */; };
+		2F1ABE3522FDE1AF003A0677 /* JSONLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1ABE3422FDE1AF003A0677 /* JSONLoader.swift */; };
+		2F80D1DF22FEB9D200F2BCBC /* LocalArtists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F80D1DE22FEB9D200F2BCBC /* LocalArtists.swift */; };
+		2F80D1E322FEC0CD00F2BCBC /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F80D1E222FEC0CD00F2BCBC /* Artist.swift */; };
+		F9BE0CC4A5A46F1995F55FA3 /* Pods_Artistry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C08F2CBA40D209EB53A6E0EF /* Pods_Artistry.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2F10D47622FB253300E274C0 /* Artistry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Artistry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F10D47922FB253300E274C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2F10D47B22FB253300E274C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2F10D47B22FB253300E274C0 /* AtristTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtristTableViewController.swift; sourceTree = "<group>"; };
 		2F10D47E22FB253300E274C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2F10D48022FB253500E274C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F10D48322FB253500E274C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F10D48522FB253500E274C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F1ABE2B22FDC7E5003A0677 /* ArtistPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistPresenter.swift; sourceTree = "<group>"; };
+		2F1ABE2D22FDC81D003A0677 /* ArtistTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistTableViewCell.swift; sourceTree = "<group>"; };
+		2F1ABE2F22FDCB87003A0677 /* artists.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = artists.json; sourceTree = "<group>"; };
+		2F1ABE3122FDD3A2003A0677 /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		2F1ABE3422FDE1AF003A0677 /* JSONLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONLoader.swift; sourceTree = "<group>"; };
+		2F80D1DE22FEB9D200F2BCBC /* LocalArtists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalArtists.swift; sourceTree = "<group>"; };
+		2F80D1E222FEC0CD00F2BCBC /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		52D361CB4CBF86AAED91255E /* Pods-Artistry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Artistry.release.xcconfig"; path = "Target Support Files/Pods-Artistry/Pods-Artistry.release.xcconfig"; sourceTree = "<group>"; };
+		C08F2CBA40D209EB53A6E0EF /* Pods_Artistry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Artistry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0814ACB0C41F9EC8E83976A /* Pods-Artistry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Artistry.debug.xcconfig"; path = "Target Support Files/Pods-Artistry/Pods-Artistry.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9BE0CC4A5A46F1995F55FA3 /* Pods_Artistry.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +57,11 @@
 		2F10D46D22FB253300E274C0 = {
 			isa = PBXGroup;
 			children = (
+				2F80D1E022FEC09200F2BCBC /* Core */,
 				2F10D47822FB253300E274C0 /* Artistry */,
 				2F10D47722FB253300E274C0 /* Products */,
+				7E5F2A397CA81EFA287BCAD0 /* Pods */,
+				C9AED1EC896844D9C4F057F6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +77,100 @@
 			isa = PBXGroup;
 			children = (
 				2F10D47922FB253300E274C0 /* AppDelegate.swift */,
-				2F10D47B22FB253300E274C0 /* ViewController.swift */,
+				2F1ABE2922FDC4DC003A0677 /* Scenes */,
 				2F10D47D22FB253300E274C0 /* Main.storyboard */,
 				2F10D48022FB253500E274C0 /* Assets.xcassets */,
+				2F80D1DB22FEB8AA00F2BCBC /* Utilites */,
+				2F1ABE3322FDD962003A0677 /* Model */,
 				2F10D48222FB253500E274C0 /* LaunchScreen.storyboard */,
+				2F80D1DD22FEB8C400F2BCBC /* Resources */,
 				2F10D48522FB253500E274C0 /* Info.plist */,
 			);
 			path = Artistry;
+			sourceTree = "<group>";
+		};
+		2F1ABE2922FDC4DC003A0677 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				2F1ABE2A22FDC520003A0677 /* Atrist */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		2F1ABE2A22FDC520003A0677 /* Atrist */ = {
+			isa = PBXGroup;
+			children = (
+				2F10D47B22FB253300E274C0 /* AtristTableViewController.swift */,
+				2F1ABE2B22FDC7E5003A0677 /* ArtistPresenter.swift */,
+				2F1ABE2D22FDC81D003A0677 /* ArtistTableViewCell.swift */,
+			);
+			path = Atrist;
+			sourceTree = "<group>";
+		};
+		2F1ABE3322FDD962003A0677 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2F1ABE3122FDD3A2003A0677 /* Map.swift */,
+				2F80D1DE22FEB9D200F2BCBC /* LocalArtists.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2F80D1DB22FEB8AA00F2BCBC /* Utilites */ = {
+			isa = PBXGroup;
+			children = (
+				2F80D1DC22FEB8B400F2BCBC /* Helper */,
+			);
+			path = Utilites;
+			sourceTree = "<group>";
+		};
+		2F80D1DC22FEB8B400F2BCBC /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				2F1ABE3422FDE1AF003A0677 /* JSONLoader.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		2F80D1DD22FEB8C400F2BCBC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2F1ABE2F22FDCB87003A0677 /* artists.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2F80D1E022FEC09200F2BCBC /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				2F80D1E122FEC0B800F2BCBC /* Entity */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		2F80D1E122FEC0B800F2BCBC /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				2F80D1E222FEC0CD00F2BCBC /* Artist.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		7E5F2A397CA81EFA287BCAD0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E0814ACB0C41F9EC8E83976A /* Pods-Artistry.debug.xcconfig */,
+				52D361CB4CBF86AAED91255E /* Pods-Artistry.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C9AED1EC896844D9C4F057F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C08F2CBA40D209EB53A6E0EF /* Pods_Artistry.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +180,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2F10D48822FB253500E274C0 /* Build configuration list for PBXNativeTarget "Artistry" */;
 			buildPhases = (
+				5A3BCDA1139D654E3475A381 /* [CP] Check Pods Manifest.lock */,
 				2F10D47222FB253300E274C0 /* Sources */,
 				2F10D47322FB253300E274C0 /* Frameworks */,
 				2F10D47422FB253300E274C0 /* Resources */,
+				2E886D91355C8DF84EF651C8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,19 +235,68 @@
 			files = (
 				2F10D48422FB253500E274C0 /* LaunchScreen.storyboard in Resources */,
 				2F10D48122FB253500E274C0 /* Assets.xcassets in Resources */,
+				2F1ABE3022FDCB87003A0677 /* artists.json in Resources */,
 				2F10D47F22FB253300E274C0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2E886D91355C8DF84EF651C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Artistry/Pods-Artistry-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Artistry/Pods-Artistry-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Artistry/Pods-Artistry-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A3BCDA1139D654E3475A381 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Artistry-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2F10D47222FB253300E274C0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F10D47C22FB253300E274C0 /* ViewController.swift in Sources */,
+				2F1ABE3222FDD3A2003A0677 /* Map.swift in Sources */,
+				2F80D1DF22FEB9D200F2BCBC /* LocalArtists.swift in Sources */,
+				2F10D47C22FB253300E274C0 /* AtristTableViewController.swift in Sources */,
 				2F10D47A22FB253300E274C0 /* AppDelegate.swift in Sources */,
+				2F1ABE2E22FDC81D003A0677 /* ArtistTableViewCell.swift in Sources */,
+				2F1ABE3522FDE1AF003A0677 /* JSONLoader.swift in Sources */,
+				2F80D1E322FEC0CD00F2BCBC /* Artist.swift in Sources */,
+				2F1ABE2C22FDC7E5003A0677 /* ArtistPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +440,7 @@
 		};
 		2F10D48922FB253500E274C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0814ACB0C41F9EC8E83976A /* Pods-Artistry.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +458,7 @@
 		};
 		2F10D48A22FB253500E274C0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52D361CB4CBF86AAED91255E /* Pods-Artistry.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
