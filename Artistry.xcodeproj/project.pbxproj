@@ -57,7 +57,6 @@
 		2F10D46D22FB253300E274C0 = {
 			isa = PBXGroup;
 			children = (
-				2F80D1E022FEC09200F2BCBC /* Core */,
 				2F10D47822FB253300E274C0 /* Artistry */,
 				2F10D47722FB253300E274C0 /* Products */,
 				7E5F2A397CA81EFA287BCAD0 /* Pods */,
@@ -76,6 +75,7 @@
 		2F10D47822FB253300E274C0 /* Artistry */ = {
 			isa = PBXGroup;
 			children = (
+				2F80D1E022FEC09200F2BCBC /* Core */,
 				2F10D47922FB253300E274C0 /* AppDelegate.swift */,
 				2F1ABE2922FDC4DC003A0677 /* Scenes */,
 				2F10D47D22FB253300E274C0 /* Main.storyboard */,
