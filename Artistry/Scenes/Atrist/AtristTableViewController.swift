@@ -13,23 +13,24 @@ class ArtistTableViewController: UITableViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
+    title = "Artists"
     presenter = ArtistPresenterImplementation()
     presenter.viewDidLoad()
     print(presenter.numberOfArtist)
 
   }
 
-//  override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-//    return
-//  }
-//  
-//  override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-//    let cell = tableView.dequeueReusableCell(withIdentifier: "ArtistTableViewCell") as! ArtistTableViewCell
-//    presenter.configure(cell: cell, forRow: indexPath.row)
-//    return cell
-//  }
-//
-//
+  override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    return presenter.numberOfArtist
+  }
+  
+  override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    let cell = tableView.dequeueReusableCell(withIdentifier: "ArtistTableViewCell") as! ArtistTableViewCell
+    presenter.configure(cell: cell, forRow: indexPath.row)
+    return cell
+  }
+
+
 }
 
 
