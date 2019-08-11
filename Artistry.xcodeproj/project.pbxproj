@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F097DDB22FF211500D49185 /* ModelWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F097DDA22FF211500D49185 /* ModelWork.swift */; };
+		2F097DDD22FF219E00D49185 /* Work.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F097DDC22FF219E00D49185 /* Work.swift */; };
+		2F097DE222FF947700D49185 /* DetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F097DE122FF947700D49185 /* DetailsTableViewController.swift */; };
 		2F10D47A22FB253300E274C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F10D47922FB253300E274C0 /* AppDelegate.swift */; };
 		2F10D47C22FB253300E274C0 /* AtristTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F10D47B22FB253300E274C0 /* AtristTableViewController.swift */; };
 		2F10D47F22FB253300E274C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F10D47D22FB253300E274C0 /* Main.storyboard */; };
@@ -15,14 +18,17 @@
 		2F1ABE2C22FDC7E5003A0677 /* ArtistPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1ABE2B22FDC7E5003A0677 /* ArtistPresenter.swift */; };
 		2F1ABE2E22FDC81D003A0677 /* ArtistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1ABE2D22FDC81D003A0677 /* ArtistTableViewCell.swift */; };
 		2F1ABE3022FDCB87003A0677 /* artists.json in Resources */ = {isa = PBXBuildFile; fileRef = 2F1ABE2F22FDCB87003A0677 /* artists.json */; };
-		2F1ABE3222FDD3A2003A0677 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1ABE3122FDD3A2003A0677 /* Map.swift */; };
+		2F1ABE3222FDD3A2003A0677 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1ABE3122FDD3A2003A0677 /* Artist.swift */; };
 		2F1ABE3522FDE1AF003A0677 /* JSONLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1ABE3422FDE1AF003A0677 /* JSONLoader.swift */; };
 		2F80D1DF22FEB9D200F2BCBC /* LocalArtists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F80D1DE22FEB9D200F2BCBC /* LocalArtists.swift */; };
-		2F80D1E322FEC0CD00F2BCBC /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F80D1E222FEC0CD00F2BCBC /* Artist.swift */; };
+		2F80D1E322FEC0CD00F2BCBC /* ModelArtist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F80D1E222FEC0CD00F2BCBC /* ModelArtist.swift */; };
 		F9BE0CC4A5A46F1995F55FA3 /* Pods_Artistry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C08F2CBA40D209EB53A6E0EF /* Pods_Artistry.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F097DDA22FF211500D49185 /* ModelWork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelWork.swift; sourceTree = "<group>"; };
+		2F097DDC22FF219E00D49185 /* Work.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Work.swift; sourceTree = "<group>"; };
+		2F097DE122FF947700D49185 /* DetailsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsTableViewController.swift; sourceTree = "<group>"; };
 		2F10D47622FB253300E274C0 /* Artistry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Artistry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F10D47922FB253300E274C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F10D47B22FB253300E274C0 /* AtristTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtristTableViewController.swift; sourceTree = "<group>"; };
@@ -33,10 +39,10 @@
 		2F1ABE2B22FDC7E5003A0677 /* ArtistPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistPresenter.swift; sourceTree = "<group>"; };
 		2F1ABE2D22FDC81D003A0677 /* ArtistTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistTableViewCell.swift; sourceTree = "<group>"; };
 		2F1ABE2F22FDCB87003A0677 /* artists.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = artists.json; sourceTree = "<group>"; };
-		2F1ABE3122FDD3A2003A0677 /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		2F1ABE3122FDD3A2003A0677 /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
 		2F1ABE3422FDE1AF003A0677 /* JSONLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONLoader.swift; sourceTree = "<group>"; };
 		2F80D1DE22FEB9D200F2BCBC /* LocalArtists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalArtists.swift; sourceTree = "<group>"; };
-		2F80D1E222FEC0CD00F2BCBC /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		2F80D1E222FEC0CD00F2BCBC /* ModelArtist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelArtist.swift; sourceTree = "<group>"; };
 		52D361CB4CBF86AAED91255E /* Pods-Artistry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Artistry.release.xcconfig"; path = "Target Support Files/Pods-Artistry/Pods-Artistry.release.xcconfig"; sourceTree = "<group>"; };
 		C08F2CBA40D209EB53A6E0EF /* Pods_Artistry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Artistry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0814ACB0C41F9EC8E83976A /* Pods-Artistry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Artistry.debug.xcconfig"; path = "Target Support Files/Pods-Artistry/Pods-Artistry.debug.xcconfig"; sourceTree = "<group>"; };
@@ -54,6 +60,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F097DE022FF8C3400D49185 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				2F097DE122FF947700D49185 /* DetailsTableViewController.swift */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
 		2F10D46D22FB253300E274C0 = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +106,7 @@
 		2F1ABE2922FDC4DC003A0677 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				2F097DE022FF8C3400D49185 /* Details */,
 				2F1ABE2A22FDC520003A0677 /* Atrist */,
 			);
 			path = Scenes;
@@ -110,7 +125,8 @@
 		2F1ABE3322FDD962003A0677 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				2F1ABE3122FDD3A2003A0677 /* Map.swift */,
+				2F1ABE3122FDD3A2003A0677 /* Artist.swift */,
+				2F097DDC22FF219E00D49185 /* Work.swift */,
 				2F80D1DE22FEB9D200F2BCBC /* LocalArtists.swift */,
 			);
 			path = Model;
@@ -151,7 +167,8 @@
 		2F80D1E122FEC0B800F2BCBC /* Entity */ = {
 			isa = PBXGroup;
 			children = (
-				2F80D1E222FEC0CD00F2BCBC /* Artist.swift */,
+				2F80D1E222FEC0CD00F2BCBC /* ModelArtist.swift */,
+				2F097DDA22FF211500D49185 /* ModelWork.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -289,13 +306,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F1ABE3222FDD3A2003A0677 /* Map.swift in Sources */,
+				2F1ABE3222FDD3A2003A0677 /* Artist.swift in Sources */,
 				2F80D1DF22FEB9D200F2BCBC /* LocalArtists.swift in Sources */,
+				2F097DDD22FF219E00D49185 /* Work.swift in Sources */,
+				2F097DDB22FF211500D49185 /* ModelWork.swift in Sources */,
+				2F097DE222FF947700D49185 /* DetailsTableViewController.swift in Sources */,
 				2F10D47C22FB253300E274C0 /* AtristTableViewController.swift in Sources */,
 				2F10D47A22FB253300E274C0 /* AppDelegate.swift in Sources */,
 				2F1ABE2E22FDC81D003A0677 /* ArtistTableViewCell.swift in Sources */,
 				2F1ABE3522FDE1AF003A0677 /* JSONLoader.swift in Sources */,
-				2F80D1E322FEC0CD00F2BCBC /* Artist.swift in Sources */,
+				2F80D1E322FEC0CD00F2BCBC /* ModelArtist.swift in Sources */,
 				2F1ABE2C22FDC7E5003A0677 /* ArtistPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
