@@ -31,6 +31,7 @@ class ArtistPresenterImplementation: ArtistPresenter{
   var artists = [ModelArtist]()
   var searchForArtist = [ModelArtist]()
   var localArtists = LocalArtists(resourceName: "artists")
+  var works = [ArtistWork]()
 
   var numberOfArtist: Int{
     return searchForArtist.count
@@ -45,9 +46,11 @@ class ArtistPresenterImplementation: ArtistPresenter{
         self.searchForArtist = artists!
       }
     }
+
   }
   
   func configure(cell: ArtistCellView, forRow row: Int) {
+  
     let artist = artists[row]
     cell.display(bio: artist.bio!)
     cell.display(name: artist.name!)
@@ -55,7 +58,9 @@ class ArtistPresenterImplementation: ArtistPresenter{
   }
   
   func didSelect(row: Int) {
-    
+    let artist = artists[row]
+    let work = artist.work
+    self.works = work!
   }
 
 }

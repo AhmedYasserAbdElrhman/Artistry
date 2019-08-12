@@ -29,7 +29,9 @@ class ArtistTableViewController: UITableViewController {
     presenter.configure(cell: cell, forRow: indexPath.row)
     return cell
   }
-
+  override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    presenter.didSelect(row: indexPath.row)
+  }
 
 }
 

@@ -10,6 +10,8 @@
 		2F097DDB22FF211500D49185 /* ModelWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F097DDA22FF211500D49185 /* ModelWork.swift */; };
 		2F097DDD22FF219E00D49185 /* Work.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F097DDC22FF219E00D49185 /* Work.swift */; };
 		2F097DE222FF947700D49185 /* DetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F097DE122FF947700D49185 /* DetailsTableViewController.swift */; };
+		2F097DE423015ED400D49185 /* DetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F097DE323015ED400D49185 /* DetailsTableViewCell.swift */; };
+		2F097DE6230160C300D49185 /* DetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F097DE5230160C300D49185 /* DetailsPresenter.swift */; };
 		2F10D47A22FB253300E274C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F10D47922FB253300E274C0 /* AppDelegate.swift */; };
 		2F10D47C22FB253300E274C0 /* AtristTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F10D47B22FB253300E274C0 /* AtristTableViewController.swift */; };
 		2F10D47F22FB253300E274C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F10D47D22FB253300E274C0 /* Main.storyboard */; };
@@ -29,6 +31,8 @@
 		2F097DDA22FF211500D49185 /* ModelWork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelWork.swift; sourceTree = "<group>"; };
 		2F097DDC22FF219E00D49185 /* Work.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Work.swift; sourceTree = "<group>"; };
 		2F097DE122FF947700D49185 /* DetailsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsTableViewController.swift; sourceTree = "<group>"; };
+		2F097DE323015ED400D49185 /* DetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsTableViewCell.swift; sourceTree = "<group>"; };
+		2F097DE5230160C300D49185 /* DetailsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsPresenter.swift; sourceTree = "<group>"; };
 		2F10D47622FB253300E274C0 /* Artistry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Artistry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F10D47922FB253300E274C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F10D47B22FB253300E274C0 /* AtristTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtristTableViewController.swift; sourceTree = "<group>"; };
@@ -64,6 +68,8 @@
 			isa = PBXGroup;
 			children = (
 				2F097DE122FF947700D49185 /* DetailsTableViewController.swift */,
+				2F097DE323015ED400D49185 /* DetailsTableViewCell.swift */,
+				2F097DE5230160C300D49185 /* DetailsPresenter.swift */,
 			);
 			path = Details;
 			sourceTree = "<group>";
@@ -312,8 +318,10 @@
 				2F097DDB22FF211500D49185 /* ModelWork.swift in Sources */,
 				2F097DE222FF947700D49185 /* DetailsTableViewController.swift in Sources */,
 				2F10D47C22FB253300E274C0 /* AtristTableViewController.swift in Sources */,
+				2F097DE423015ED400D49185 /* DetailsTableViewCell.swift in Sources */,
 				2F10D47A22FB253300E274C0 /* AppDelegate.swift in Sources */,
 				2F1ABE2E22FDC81D003A0677 /* ArtistTableViewCell.swift in Sources */,
+				2F097DE6230160C300D49185 /* DetailsPresenter.swift in Sources */,
 				2F1ABE3522FDE1AF003A0677 /* JSONLoader.swift in Sources */,
 				2F80D1E322FEC0CD00F2BCBC /* ModelArtist.swift in Sources */,
 				2F1ABE2C22FDC7E5003A0677 /* ArtistPresenter.swift in Sources */,

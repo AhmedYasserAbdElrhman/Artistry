@@ -12,5 +12,6 @@ struct ModelWork {
   let title: String?
   let image: String?
   let info: String?
+  var isExpanded: Bool
 }
 

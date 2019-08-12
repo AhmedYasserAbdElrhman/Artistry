@@ -9,17 +9,17 @@
 import Foundation
 import ObjectMapper
 
-
 class ArtistWork: Mappable{
-  var tittle: String?
+  var title: String?
   var workimage: String?
   var info: String?
+  
   required init?(map: Map) {
-    
+
   }
   
   func mapping(map: Map) {
-    tittle <- map["title"]
+    title <- map["title"]
     workimage <- map["image"]
     info <- map["info"]
   }
@@ -27,3 +27,8 @@ class ArtistWork: Mappable{
   
 }
 
+extension ArtistWork{
+  var work: ModelWork{
+    return ModelWork(title: title, image: workimage, info: info, isExpanded: false)
+  }
+}

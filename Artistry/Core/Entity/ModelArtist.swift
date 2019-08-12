@@ -13,4 +13,5 @@ struct ModelArtist {
   var bio: String?
   var image: String?
   var work: [ArtistWork]?
+  
 }

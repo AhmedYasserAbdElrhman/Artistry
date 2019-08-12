@@ -74,16 +74,16 @@
             </objects>
             <point key="canvasLocation" x="196" y="90"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Details Table View Controller-->
         <scene sceneID="mg4-wg-8pt">
             <objects>
-                <tableViewController id="PB1-Tf-Bmw" sceneMemberID="viewController">
+                <tableViewController id="PB1-Tf-Bmw" customClass="DetailsTableViewController" customModule="Artistry" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="jft-pl-9Lu">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="295" id="uqn-eS-2Ef">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="DetailsTableViewCell" rowHeight="295" id="uqn-eS-2Ef" customClass="DetailsTableViewCell" customModule="Artistry" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="414" height="295"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="uqn-eS-2Ef" id="DeZ-iJ-yQJ">
@@ -121,6 +121,11 @@
                                         <constraint firstAttribute="trailingMargin" secondItem="Xju-bg-jJQ" secondAttribute="trailing" constant="8" id="yRR-j9-A31"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="detailsArtistImageView" destination="eoy-oE-dUg" id="cLi-Nb-EYD"/>
+                                    <outlet property="detailsArtistName" destination="Xju-bg-jJQ" id="GF8-zY-7Rq"/>
+                                    <outlet property="detailsArtistTextView" destination="2qQ-95-kKr" id="3wF-lI-2Ov"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
