@@ -18,7 +18,7 @@ protocol DetailsPresenter {
   var numberOfWorks: Int { get }
   func configure(cell: DetailsCellView, forRow row: Int)
   func didSelect(cell: DetailsCellView, forRow row: Int)
-  func viewDidLoad(artistNumber: Int)
+  func viewDidLoad(with works: [ArtistWork])
 
 }
 
@@ -30,7 +30,7 @@ class DetailsPresenterImplementation: DetailsPresenter{
     
   
     var numberOfWorks: Int {
-      return self.work.count }
+      return self.works.count }
   
     func configure(cell: DetailsCellView, forRow row: Int) {
       let work = works[row]
@@ -48,21 +48,8 @@ class DetailsPresenterImplementation: DetailsPresenter{
       
     }
   
-  func viewDidLoad(artistNumber: Int) {
-      localArtists.fetchArtists { artists, error in
-        if let error = error {
-          print(error)
-        } else {
-          self.artists = artists!
-          let artist = self.artists[artistNumber]
-          let work = artist.work
-          self.work = work!
-          
-        }
-      }
-    getWork()
-  }
-  func getWork() {
-    self.works = localArtists.convertWorksToModel(works: self.work)!
+  func viewDidLoad(with works: [ArtistWork]) {
+    self.works = localArtists.convertWorksToModel(works: works)!
+
   }
 }

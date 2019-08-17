@@ -16,9 +16,11 @@ protocol ArtistCellView {
 }
 
 protocol ArtistPresenter {
-  var numberOfArtist : Int { get }
+  var numberOfArtist: Int { get }
+  var work: [ArtistWork] { get }
   func configure(cell: ArtistCellView, forRow row: Int)
   func viewDidLoad()
+  func didSelect(raw: Int)
 }
 
 
@@ -30,7 +32,7 @@ class ArtistPresenterImplementation: ArtistPresenter{
   var artists = [ModelArtist]()
   var searchForArtist = [ModelArtist]()
   var localArtists = LocalArtists(resourceName: "artists")
-  private(set) var works = [ArtistWork]()
+  var works = [ArtistWork]()
   
   var numberOfArtist: Int{
     return searchForArtist.count
@@ -60,4 +62,11 @@ class ArtistPresenterImplementation: ArtistPresenter{
     cell.display(name: artist.name!)
     cell.display(image: UIImage(named: artist.image!)!)
   }
+  
+  func didSelect(raw: Int) {
+    let artist = artists[raw]
+    let work = artist.work
+    self.works = work!
+  }
+
 }

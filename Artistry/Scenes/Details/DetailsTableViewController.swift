@@ -13,12 +13,13 @@ class DetailsTableViewController: UITableViewController {
   var presenter: DetailsPresenter!
   var presenterArtist: ArtistPresenter!
   var row: Int?
+  var works: [ArtistWork]!
   
     override func viewDidLoad() {
         super.viewDidLoad()
       presenter = DetailsPresenterImplementation()
-      presenter.viewDidLoad(artistNumber: row!)
-      print(row!)
+      presenter.viewDidLoad(with: works)
+
       
       
 
