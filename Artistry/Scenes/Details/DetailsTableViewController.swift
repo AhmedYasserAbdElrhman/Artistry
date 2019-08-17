@@ -11,12 +11,14 @@ import UIKit
 class DetailsTableViewController: UITableViewController {
 
   var presenter: DetailsPresenter!
+  var presenterArtist: ArtistPresenter!
+  var row: Int?
   
     override func viewDidLoad() {
         super.viewDidLoad()
       presenter = DetailsPresenterImplementation()
-      presenter.viewDidLoad()
-      print(presenter.numberOfWorks)
+      presenter.viewDidLoad(artistNumber: row!)
+      print(row!)
       
       
 

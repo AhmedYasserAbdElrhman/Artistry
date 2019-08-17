@@ -59,7 +59,6 @@
                                     <outlet property="artistBio" destination="URg-yL-YaX" id="sXM-vb-532"/>
                                     <outlet property="artistImageView" destination="VPg-XW-Q7A" id="UNG-dP-BhA"/>
                                     <outlet property="artistName" destination="eMh-MT-DWL" id="xUU-TY-fNO"/>
-                                    <segue destination="PB1-Tf-Bmw" kind="show" identifier="DetailsView" id="fA3-Uy-Po5"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -69,6 +68,9 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Root View Controller" id="y30-FN-l4y"/>
+                    <connections>
+                        <segue destination="PB1-Tf-Bmw" kind="show" identifier="DetailsTableViewController" id="WPl-yT-XII"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NQu-8F-od7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

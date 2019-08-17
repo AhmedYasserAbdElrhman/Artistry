@@ -30,7 +30,15 @@ class ArtistTableViewController: UITableViewController {
     return cell
   }
   override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-    presenter.didSelect(row: indexPath.row)
+    performSegue(withIdentifier: "DetailsTableViewController", sender: indexPath.row)
+    
+  }
+  override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    if segue.identifier == "DetailsTableViewController" {
+      let detailsTableViewController = segue.destination as? DetailsTableViewController
+      detailsTableViewController?.row = sender as? Int
+    }
+    
   }
 
 }

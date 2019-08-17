@@ -18,10 +18,9 @@ protocol ArtistCellView {
 protocol ArtistPresenter {
   var numberOfArtist : Int { get }
   func configure(cell: ArtistCellView, forRow row: Int)
-  func didSelect(row: Int)
   func viewDidLoad()
-
 }
+
 
 
 
@@ -31,11 +30,16 @@ class ArtistPresenterImplementation: ArtistPresenter{
   var artists = [ModelArtist]()
   var searchForArtist = [ModelArtist]()
   var localArtists = LocalArtists(resourceName: "artists")
-  var works = [ArtistWork]()
-
+  private(set) var works = [ArtistWork]()
+  
   var numberOfArtist: Int{
     return searchForArtist.count
   }
+  
+  var work: [ArtistWork] {
+    return self.works
+  }
+
   
   func viewDidLoad() {
     localArtists.fetchArtists { artists, error in
@@ -56,11 +60,4 @@ class ArtistPresenterImplementation: ArtistPresenter{
     cell.display(name: artist.name!)
     cell.display(image: UIImage(named: artist.image!)!)
   }
-  
-  func didSelect(row: Int) {
-    let artist = artists[row]
-    let work = artist.work
-    self.works = work!
-  }
-
 }
