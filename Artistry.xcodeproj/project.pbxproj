@@ -12,6 +12,7 @@
 		2F097DE222FF947700D49185 /* DetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F097DE122FF947700D49185 /* DetailsTableViewController.swift */; };
 		2F097DE423015ED400D49185 /* DetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F097DE323015ED400D49185 /* DetailsTableViewCell.swift */; };
 		2F097DE6230160C300D49185 /* DetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F097DE5230160C300D49185 /* DetailsPresenter.swift */; };
+		2F0BC499230801CF00036681 /* ArtistryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0BC498230801CF00036681 /* ArtistryTests.swift */; };
 		2F10D47A22FB253300E274C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F10D47922FB253300E274C0 /* AppDelegate.swift */; };
 		2F10D47C22FB253300E274C0 /* AtristTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F10D47B22FB253300E274C0 /* AtristTableViewController.swift */; };
 		2F10D47F22FB253300E274C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F10D47D22FB253300E274C0 /* Main.storyboard */; };
@@ -27,12 +28,25 @@
 		F9BE0CC4A5A46F1995F55FA3 /* Pods_Artistry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C08F2CBA40D209EB53A6E0EF /* Pods_Artistry.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		2F0BC49B230801CF00036681 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F10D46E22FB253300E274C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F10D47522FB253300E274C0;
+			remoteInfo = Artistry;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		2F097DDA22FF211500D49185 /* ModelWork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelWork.swift; sourceTree = "<group>"; };
 		2F097DDC22FF219E00D49185 /* Work.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Work.swift; sourceTree = "<group>"; };
 		2F097DE122FF947700D49185 /* DetailsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsTableViewController.swift; sourceTree = "<group>"; };
 		2F097DE323015ED400D49185 /* DetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsTableViewCell.swift; sourceTree = "<group>"; };
 		2F097DE5230160C300D49185 /* DetailsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsPresenter.swift; sourceTree = "<group>"; };
+		2F0BC496230801CF00036681 /* ArtistryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArtistryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F0BC498230801CF00036681 /* ArtistryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistryTests.swift; sourceTree = "<group>"; };
+		2F0BC49A230801CF00036681 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F10D47622FB253300E274C0 /* Artistry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Artistry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F10D47922FB253300E274C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F10D47B22FB253300E274C0 /* AtristTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtristTableViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +67,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2F0BC493230801CF00036681 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2F10D47322FB253300E274C0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -74,10 +95,20 @@
 			path = Details;
 			sourceTree = "<group>";
 		};
+		2F0BC497230801CF00036681 /* ArtistryTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F0BC498230801CF00036681 /* ArtistryTests.swift */,
+				2F0BC49A230801CF00036681 /* Info.plist */,
+			);
+			path = ArtistryTests;
+			sourceTree = "<group>";
+		};
 		2F10D46D22FB253300E274C0 = {
 			isa = PBXGroup;
 			children = (
 				2F10D47822FB253300E274C0 /* Artistry */,
+				2F0BC497230801CF00036681 /* ArtistryTests */,
 				2F10D47722FB253300E274C0 /* Products */,
 				7E5F2A397CA81EFA287BCAD0 /* Pods */,
 				C9AED1EC896844D9C4F057F6 /* Frameworks */,
@@ -88,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				2F10D47622FB253300E274C0 /* Artistry.app */,
+				2F0BC496230801CF00036681 /* ArtistryTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -199,6 +231,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		2F0BC495230801CF00036681 /* ArtistryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F0BC49F230801CF00036681 /* Build configuration list for PBXNativeTarget "ArtistryTests" */;
+			buildPhases = (
+				2F0BC492230801CF00036681 /* Sources */,
+				2F0BC493230801CF00036681 /* Frameworks */,
+				2F0BC494230801CF00036681 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F0BC49C230801CF00036681 /* PBXTargetDependency */,
+			);
+			name = ArtistryTests;
+			productName = ArtistryTests;
+			productReference = 2F0BC496230801CF00036681 /* ArtistryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		2F10D47522FB253300E274C0 /* Artistry */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2F10D48822FB253500E274C0 /* Build configuration list for PBXNativeTarget "Artistry" */;
@@ -228,6 +278,10 @@
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Ahmed Yasser";
 				TargetAttributes = {
+					2F0BC495230801CF00036681 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 2F10D47522FB253300E274C0;
+					};
 					2F10D47522FB253300E274C0 = {
 						CreatedOnToolsVersion = 10.2;
 					};
@@ -247,11 +301,19 @@
 			projectRoot = "";
 			targets = (
 				2F10D47522FB253300E274C0 /* Artistry */,
+				2F0BC495230801CF00036681 /* ArtistryTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2F0BC494230801CF00036681 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2F10D47422FB253300E274C0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -308,6 +370,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2F0BC492230801CF00036681 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F0BC499230801CF00036681 /* ArtistryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2F10D47222FB253300E274C0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -330,6 +400,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		2F0BC49C230801CF00036681 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F10D47522FB253300E274C0 /* Artistry */;
+			targetProxy = 2F0BC49B230801CF00036681 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		2F10D47D22FB253300E274C0 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -350,6 +428,44 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		2F0BC49D230801CF00036681 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ArtistryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Biko.ArtistryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Artistry.app/Artistry";
+			};
+			name = Debug;
+		};
+		2F0BC49E230801CF00036681 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ArtistryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Biko.ArtistryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Artistry.app/Artistry";
+			};
+			name = Release;
+		};
 		2F10D48622FB253500E274C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -505,6 +621,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2F0BC49F230801CF00036681 /* Build configuration list for PBXNativeTarget "ArtistryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F0BC49D230801CF00036681 /* Debug */,
+				2F0BC49E230801CF00036681 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2F10D47122FB253300E274C0 /* Build configuration list for PBXProject "Artistry" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

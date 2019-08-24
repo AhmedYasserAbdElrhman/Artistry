@@ -29,6 +29,8 @@ protocol ArtistPresenter {
 
 class ArtistPresenterImplementation: ArtistPresenter{
   
+  private var view: ArtistView!
+  
   var artists = [ModelArtist]()
   var searchForArtist = [ModelArtist]()
   var localArtists = LocalArtists(resourceName: "artists")
@@ -40,6 +42,11 @@ class ArtistPresenterImplementation: ArtistPresenter{
   
   var work: [ArtistWork] {
     return self.works
+  }
+  
+  
+  init(view: ArtistView) {
+    self.view = view
   }
 
   
@@ -67,6 +74,7 @@ class ArtistPresenterImplementation: ArtistPresenter{
     let artist = artists[raw]
     let work = artist.work
     self.works = work!
+    view.navigatArtistWork()
   }
 
 }

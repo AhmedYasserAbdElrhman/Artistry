@@ -48,8 +48,8 @@ class DetailsPresenterImplementation: DetailsPresenter{
       
     }
   
-  func viewDidLoad(with works: [ArtistWork]) {
-    self.works = localArtists.convertWorksToModel(works: works)!
+    func viewDidLoad(with works: [ArtistWork]) {
+      self.works = localArtists.convertWorksToModel(works: works)!
 
   }
 }

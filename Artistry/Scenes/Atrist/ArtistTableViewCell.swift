@@ -9,9 +9,9 @@
 import UIKit
 
 class ArtistTableViewCell: UITableViewCell, ArtistCellView {
-  @IBOutlet weak var artistImageView: UIImageView!
-  @IBOutlet weak var artistBio: UILabel!
-  @IBOutlet weak var artistName: UILabel!
+  @IBOutlet private weak var artistImageView: UIImageView!
+  @IBOutlet private weak var artistBio: UILabel!
+  @IBOutlet private weak var artistName: UILabel!
 
   func display(image: UIImage) {
     artistImageView.image = image

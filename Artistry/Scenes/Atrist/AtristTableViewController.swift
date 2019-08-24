@@ -8,13 +8,17 @@
 
 import UIKit
 
+protocol ArtistView {
+  func navigatArtistWork()
+}
+
 class ArtistTableViewController: UITableViewController {
   var presenter : ArtistPresenter!
 
   override func viewDidLoad() {
     super.viewDidLoad()
     title = "Artists"
-    presenter = ArtistPresenterImplementation()
+    presenter = ArtistPresenterImplementation(view: self)
     presenter.viewDidLoad()
     print(presenter.numberOfArtist)
 
@@ -31,8 +35,7 @@ class ArtistTableViewController: UITableViewController {
   }
   override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
     presenter.didSelect(raw: indexPath.row)
-    performSegue(withIdentifier: "DetailsTableViewController", sender: presenter.work)
-    
+
   }
   override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
     if segue.identifier == "DetailsTableViewController" {
@@ -45,3 +48,11 @@ class ArtistTableViewController: UITableViewController {
 }
 
 
+extension ArtistTableViewController: ArtistView {
+  func navigatArtistWork() {
+    performSegue(withIdentifier: "DetailsTableViewController", sender: presenter.work)
+
+  }
+  
+  
+}
