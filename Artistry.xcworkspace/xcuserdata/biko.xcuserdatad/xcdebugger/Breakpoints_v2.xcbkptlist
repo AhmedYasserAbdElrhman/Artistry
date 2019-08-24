@@ -6,11 +6,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Artistry/Scenes/Atrist/AtristTableViewController.swift"
-            timestampString = "588345103.085039"
+            timestampString = "588349890.515664"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "38"
@@ -22,11 +22,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Artistry/Scenes/Atrist/AtristTableViewController.swift"
-            timestampString = "588345103.085175"
+            timestampString = "588349890.5159889"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "38"
@@ -38,11 +38,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Artistry/Scenes/Atrist/ArtistPresenter.swift"
-            timestampString = "588345103.085258"
+            timestampString = "588349890.516049"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "43"
@@ -54,11 +54,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Artistry/Scenes/Atrist/ArtistPresenter.swift"
-            timestampString = "588345103.0871"
+            timestampString = "588349890.516234"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "78"
@@ -70,11 +70,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Artistry/Scenes/Atrist/AtristTableViewController.swift"
-            timestampString = "588345103.0874"
+            timestampString = "588349890.516286"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "44"
@@ -86,11 +86,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Artistry/Scenes/Details/DetailsTableViewController.swift"
-            timestampString = "587713495.194068"
+            timestampString = "588349890.516336"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "16"
@@ -99,14 +99,14 @@
             landmarkType = "3">
             <Locations>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "Artistry.DetailsTableViewController.works.getter : Swift.Optional&lt;Swift.Array&lt;Artistry.ArtistWork&gt;&gt;"
                   moduleName = "Artistry"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/biko/Documents/Projects/Artistry/Artistry/Scenes/Details/DetailsTableViewController.swift"
-                  timestampString = "588345103.439015"
+                  timestampString = "588349318.6936671"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "16"
@@ -114,14 +114,14 @@
                   offsetFromSymbolStart = "114">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "Artistry.DetailsTableViewController.works.setter : Swift.Optional&lt;Swift.Array&lt;Artistry.ArtistWork&gt;&gt;"
                   moduleName = "Artistry"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/biko/Documents/Projects/Artistry/Artistry/Scenes/Details/DetailsTableViewController.swift"
-                  timestampString = "588345103.440613"
+                  timestampString = "588349318.695511"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "16"
@@ -129,14 +129,14 @@
                   offsetFromSymbolStart = "128">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "Artistry.DetailsTableViewController.works.modify : Swift.Optional&lt;Swift.Array&lt;Artistry.ArtistWork&gt;&gt;"
                   moduleName = "Artistry"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/biko/Documents/Projects/Artistry/Artistry/Scenes/Details/DetailsTableViewController.swift"
-                  timestampString = "588345103.4421639"
+                  timestampString = "588349318.698593"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -144,14 +144,14 @@
                   offsetFromSymbolStart = "18">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "Artistry.DetailsTableViewController.works.modify : Swift.Optional&lt;Swift.Array&lt;Artistry.ArtistWork&gt;&gt; with unmangled suffix &quot;.resume.0&quot;"
                   moduleName = "Artistry"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/biko/Documents/Projects/Artistry/Artistry/Scenes/Details/DetailsTableViewController.swift"
-                  timestampString = "588345103.443748"
+                  timestampString = "588349318.700894"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "16"
@@ -159,14 +159,14 @@
                   offsetFromSymbolStart = "4">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "Artistry.DetailsTableViewController.init(style: __C.UITableViewStyle) -&gt; Artistry.DetailsTableViewController"
                   moduleName = "Artistry"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/biko/Documents/Projects/Artistry/Artistry/Scenes/Details/DetailsTableViewController.swift"
-                  timestampString = "588345103.445308"
+                  timestampString = "588349318.703257"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "16"
@@ -174,14 +174,14 @@
                   offsetFromSymbolStart = "450">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "Artistry.DetailsTableViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Artistry.DetailsTableViewController"
                   moduleName = "Artistry"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/biko/Documents/Projects/Artistry/Artistry/Scenes/Details/DetailsTableViewController.swift"
-                  timestampString = "588345103.446823"
+                  timestampString = "588349318.706091"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "16"
@@ -189,14 +189,14 @@
                   offsetFromSymbolStart = "587">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "Artistry.DetailsTableViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Artistry.DetailsTableViewController&gt;"
                   moduleName = "Artistry"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/biko/Documents/Projects/Artistry/Artistry/Scenes/Details/DetailsTableViewController.swift"
-                  timestampString = "588345103.448333"
+                  timestampString = "588349318.708148"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "16"
@@ -209,11 +209,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Artistry/Scenes/Details/DetailsPresenter.swift"
-            timestampString = "587713495.194284"
+            timestampString = "588349890.516524"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "51"
@@ -225,11 +225,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Artistry/Scenes/Details/DetailsPresenter.swift"
-            timestampString = "587713495.194932"
+            timestampString = "588349890.516695"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "53"
@@ -241,11 +241,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Artistry/Scenes/Details/DetailsPresenter.swift"
-            timestampString = "587713495.195245"
+            timestampString = "588349890.516748"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "39"
@@ -257,16 +257,48 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Artistry/Scenes/Details/DetailsTableViewController.swift"
-            timestampString = "587713495.195523"
+            timestampString = "588349890.516795"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
-            landmarkName = "tableView(_:cellForRowAt:)"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "tableView(_:numberOfRowsInSection:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Artistry/Scenes/Details/DetailsPresenter.swift"
+            timestampString = "588349890.516843"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "didSelect(cell:forRow:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Artistry/Scenes/Details/DetailsTableViewCell.swift"
+            timestampString = "588349890.516894"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "update()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -276,13 +308,29 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Artistry/Scenes/Details/DetailsPresenter.swift"
-            timestampString = "587713547.898824"
+            filePath = "Artistry/Scenes/Details/DetailsTableViewCell.swift"
+            timestampString = "588349890.5175461"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "47"
-            endingLineNumber = "47"
-            landmarkName = "didSelect(cell:forRow:)"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "update()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Artistry/Scenes/Details/DetailsTableViewCell.swift"
+            timestampString = "588349890.517861"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "update()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
